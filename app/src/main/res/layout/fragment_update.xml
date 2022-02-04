@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.UpdateFragment"
+    android:orientation="vertical"
+    android:background="@color/light_grey"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/name_update_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя"
+        android:textSize="32sp"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:id="@+id/description_update_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Описание"
+        android:textSize="32sp"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:id="@+id/authorid_update_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="ID Автора (от 1 до 3)"
+        android:textSize="32sp"
+        android:layout_margin="8dp"/>
+    <TextView
+        android:id="@+id/author_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:text="Имя автора"
+        android:layout_margin="8dp"/>
+    <TextView
+        android:id="@+id/author_date_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:text="Дата рождения автора"
+        android:layout_margin="8dp"/>
+    <Button
+        android:id="@+id/update_author_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Обновить" />
+
+</LinearLayout>
